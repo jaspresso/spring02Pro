@@ -39,6 +39,7 @@ function memo_view(idx) {
 <body>
 <%@ include file="../include/menu.jsp" %>
 <h2>메모장</h2>
+<!-- git hub 업로드 테스트 -->
 <form method="post" action="${path}/memo/insert.do">
  이름 : <input name="writer" size="10"><br>
  메모 : <!-- <input id="memo" name="memo" size="40"> -->
